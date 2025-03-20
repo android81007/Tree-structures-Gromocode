@@ -2,13 +2,13 @@ ul li {
     margin-bottom: 16px;
 }
 
-ul li:first-child {
+ul li:first-child > span {
     background-color: red;
     color: #fff;
 }
 
 
-ul li:last-child {
+ul li:last-child > span {
     background-color: black;
     color: #fff;
 }
